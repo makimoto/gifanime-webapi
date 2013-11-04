@@ -1,0 +1,2 @@
+require "./app"
+GifAnime.run!

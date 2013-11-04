@@ -1,0 +1,16 @@
+body {
+  font-family: arial;
+}
+
+.sample-code {
+  text-align: center;
+  font-size: 16pt;
+  margin: 40px 80px;
+  padding: 20px;
+  border: solid 1px;
+  font-family: monospace;
+}
+
+address {
+  text-align: right;
+}

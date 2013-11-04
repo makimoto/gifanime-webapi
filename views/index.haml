@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Yet Another Something Which Generates Animated GIFs
+    %link{ href: "style.css", rel: "stylesheet", type: "text/css" }
+  %body
+    %h1 Yet Another Something Which Generates Animated GIFs
+    .sample-code
+      %code
+        $ curl -XPOST -F "files[]=@a.jpg" -F "files[]=@b.jpg" -F "files[]=@c.jpg" #{request.url.sub(%r{/[^/]+\z}, "")} &gt; output.gif
+  %address
+    by
+    %a{ href: "https://twitter.com/makimoto" }@makimoto
