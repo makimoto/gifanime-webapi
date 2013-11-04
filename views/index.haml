@@ -8,6 +8,22 @@
     .sample-code
       %code
         $ curl -XPOST -F "files[]=@a.jpg" -F "files[]=@b.jpg" -F "files[]=@c.jpg" #{request.url.sub(%r{/[^/]+\z}, "")} &gt; output.gif
+    %h2 sample
+    .sample-files
+      %ul
+        %li.sample-file
+          %img{ src: "sample/a.jpg" }
+          .title a.jpg
+        %li.sample-file
+          %img{ src: "sample/b.jpg" }
+          .title b.jpg
+        %li.sample-file
+          %img{ src: "sample/c.jpg" }
+          .title c.jpg
+        %li.sample-file
+          %img{ src: "sample/output.gif" }
+          .title output.gif
+    .clear
   %address
     by
     %a{ href: "https://twitter.com/makimoto" }@makimoto

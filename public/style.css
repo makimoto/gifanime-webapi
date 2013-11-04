@@ -14,3 +14,21 @@ body {
 address {
   text-align: right;
 }
+
+.sample-files ul {
+  list-style: none;
+}
+.sample-files li {
+  text-align: center;
+  float: left;
+  text-align: center;
+}
+
+.sample-file img {
+  width: 160px;
+  margin: 5px 15px;
+}
+
+.clear {
+  clear: both;
+}
