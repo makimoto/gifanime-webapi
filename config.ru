@@ -1,2 +1,2 @@
 require "./app"
-GifAnime.run!
+GifAnimeWebapi.run!

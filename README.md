@@ -1,4 +1,4 @@
-gifanime
+gifanime-webapi
 ========
 
 [Yet Another Something Which Generates Animated GIFs](http://gifanime.makimoto.org)

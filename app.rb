@@ -3,7 +3,7 @@ require "pathname"
 require "RMagick"
 require "haml"
 
-class GifAnime < Sinatra::Base
+class GifAnimeWebapi < Sinatra::Base
   get "/" do
     haml :index
   end
